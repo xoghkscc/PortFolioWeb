@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import ReactFullpage from '@fullpage/react-fullpage'; // will return static version on server and "live" version on client
+
 
 function App() {
   return (
