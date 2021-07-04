@@ -29,7 +29,7 @@ const Fullpage = () => (
             <div className="section">
               <div className="portfolio">
                 <div className="portfoliotext">
-                  Projectd
+                  Projectddd
                   <div className="slide">
                     <Section4_1></Section4_1>
                   </div>
