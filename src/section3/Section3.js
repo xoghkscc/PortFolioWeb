@@ -13,7 +13,7 @@ class Section3 extends Component {
             <article>
 
                 <div class="skill">
-                    <div class="skilltext">skils</div>
+                    <div class="skilltext">Skils</div>
                     <div class="text2">Front-end</div>
                     <div class="Content">
                         <div class="skillicon html url" onClick={function () {
@@ -29,7 +29,7 @@ class Section3 extends Component {
                         <div id="javaid" class="skillicon java url" onClick={function () {
                             window.open("https://github.com/xoghkscc/JavaStudy.git")}}></div>
                     </div>
-                    <div class="text2">etc</div>
+                    <div class="text2">Etc</div>
                     <div class="Content">
                         <div class="skillicon git url"  onClick={function () {
                             window.open("https://github.com/xoghkscc?tab=repositories")}}></div>

@@ -4,42 +4,118 @@
     width: 100vw;
     height: 100vh;
     text-align: center;
-    background-color: #cce1fc;
+    background-color: #dde8f7;
     color: black;
     font-family: "Do Hyeon", sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
     
+}
+
+.portFoliomainPanel{
+    display: flex;
+    justify-content: center;
 }
 
 .portfoliotext{
     font-size: 40pt;
     padding-top: 10px;
+
 }
 
-.Content{
-    width: 80%;
-    height: auto;
+.portFolioPanel{
+    width: 85vw;
+    height: 70vh;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: space-between;
 
+}
+
+.sub{
+    width: 50%;
+    margin: 10px;
+}
+
+.leftPanel1{
+    background-image: url('../media/monitor1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.leftPanel2{
+    background-image: url('../media/monitor2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rightPanel1{
+    padding-left: 50px;
+}
+
+.rightContent{
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    row-gap: 5px;
+    padding-bottom: 3vh;
+}
+
+
+.subtext{
+    font-size: 0.9em;
+}
+
+.skillsminiicon{
+    display: flex;
 }
 
 .portfoliotext2{
-    font-size: 1.5em;
+    font-size: 20px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    text-align: left;
+    color: #3a3a3a;;
+    
 }
 
-.skillicon{
-    width: 100px;
-    height: 100px;
+#mini{
+    width: 70px;
+    height: 70px;
+    margin-right: 1rem;
+    background-color: white;
     border-radius: 15px 15px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%), 0 3px 6px rgb(0 0 0 / 20%);
+}
+
+#mini:last-child{
+    margin-right: 0rem;
+}
+
+.projecticon{
+    width: 95%;
+    height: 15vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.miniicon{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px 5px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-right: 2rem;
+    border-radius: 15px 15px;
     box-shadow: 0 3px 6px rgb(0 0 0 / 20%), 0 3px 6px rgb(0 0 0 / 20%);
+    background-color: white;
+}
+
+.posproject{
+    background-image: url('../media/github.png');
+}
+
+.posyoutube{
+    background-image: url('../media/youtube.png');
+
 }

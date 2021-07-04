@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.portfolio{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-color: #cce1fc;
+    color: black;
+    font-family: "Do Hyeon", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

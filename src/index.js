@@ -5,6 +5,7 @@ import Section1 from './section1/Section1';
 import Section2 from './section2/Section2_1';
 import Section3 from './section3/Section3';
 import Section4_1 from './section4/Section4_1';
+import Section4_2 from './section4/Section4_2';
 import { BrowserRouter } from 'react-router-dom';
 
 const Fullpage = () => (
@@ -26,14 +27,16 @@ const Fullpage = () => (
               <Section3></Section3>
             </div>
             <div className="section">
-              <div className="slide">
-                <Section4_1></Section4_1>
-              </div>
-              <div className="slide">
-                <h3>Slide 4.2</h3>
-              </div>
-              <div className="slide">
-                <h3>Slide 4.3</h3>
+              <div className="portfolio">
+                <div className="portfoliotext">
+                  Project
+                  <div className="slide">
+                    <Section4_1></Section4_1>
+                  </div>
+                  <div className="slide">
+                    <Section4_2></Section4_2>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="section">
