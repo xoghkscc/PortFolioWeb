@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
 
 .contact{
     width: 100vw;
@@ -16,68 +17,98 @@
     font-size: 4.4vw;
     padding-top: 0.8vw;
 }
-/* 
-.Content{
-    width: 80%;
-    height: auto;
+
+
+.leftcontactPanel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.5vw;
+}
+
+.myinfo{
+    margin-bottom: 10vh;
+    margin-right: 10vw;
+}
+
+
+
+
+
+label{
+    font-size: 2vw;
+}
+
+.contactPanel{
+    width: 60vw;
+    height: 80vh;
     display: flex;
     flex-direction: row;
+    margin-top: 10vh;
+    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactform{
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-
 }
 
-.text2{
-    font-size: 2vw;
-    padding-top: 3.5vh;
-    padding-bottom: 3.5vh;
+.sub2{
+    width: 50%;
+    height: auto;
+    margin-top: 10vh;
 }
 
-.skillicon{
-    width:  7vw;
-    height: 7vw;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-right: 2rem;
-    border-radius: 15px 15px;
-    box-shadow: 0 3px 6px rgb(0 0 0 / 20%), 0 3px 6px rgb(0 0 0 / 20%);
+
+
+.inputclass{
+    width: 30vw;
+    height: 5vh;
+    background-color: #f8f7f7;
+    border-top: 1px solid #333333;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 6vh;
+    font-size: 20pt;
+    font-family: 'Noto Sans KR', sans-serif;
 }
-.url:hover{
-    background-color: gray;
+.inputclass2{
+    width: 30vw;
+    height: 20vh;
+    background-color: #f8f7f7;
+    border-top: 1px solid #333333;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 4vh;
+    font-size: 15pt;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+
+.sumitbutton{
+    background: transparent;
+    color: black;
+    float: right;
+    font-size: 1.5vw;
+    outline: 0;
+    padding: 10px 30px;
+    border: 2px solid black;
     cursor: pointer;
+    width: 10vw;
+    height: 7vh;
+    
 }
-
-.html{
-    background-image: url('../media/html5.png');
+.sumitbutton:hover{
+ background-color: gray;
 }
-.css{
-    background-image: url('../media/css.png');
-}
-.js{
-    background-image: url('../media/js.png');
-}
-.react{
-    background-image: url('../media/logo512.png');
-}
-.java{
-    background-image: url('../media/java.png');
-}
-.git{
-    background-image: url('../media/git.png');
-}
-.db{
-    background-image: url('../media/oracledb.png');
-}
-.aws{
-    background-image: url('../media/aws.png');
-}
-
-#reactid{
-    margin-right: 0px;
-}
-#javaid{
-    margin-right: 0px;
-}
-#awsid{
-    margin-right: 0px;
-} */

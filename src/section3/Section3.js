@@ -41,7 +41,5 @@ class Section3 extends Component {
         )
     }
 }
-// function link(url) {
-//     l
-// }
+
 export default Section3;
