@@ -12,7 +12,7 @@ class Section1 extends Component {
             <header>
                 <div class="headertop">
                     <div class="header-text">
-                        <li class="header-li"onClick={function(e){
+                        <li id="contact" class="header-li"onClick={function(e){
                             this.props.onClick()
                             this.props.onClick()
                             this.props.onClick()
@@ -31,7 +31,7 @@ class Section1 extends Component {
                         <li class="header-li" onClick={function(e){
                             this.props.onClick()
                         }.bind(this)}>About</li>
-                        <li class="header-li">Home</li>
+                        <li  class="header-li">Home</li>
                     </div>
                 </div>
                 

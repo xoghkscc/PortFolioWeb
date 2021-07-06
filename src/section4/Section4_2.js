@@ -12,12 +12,14 @@ class Section4_2 extends Component {
         return (
             <article className="portFoliomainPanel">
                 <div className="portFolioPanel">
-                    <div className="leftPanel2 sub"></div>
+                    <div className="leftPanel2 sub">
+                    <img src={process.env.PUBLIC_URL + '/monitor2.png'}></img>
+                    </div>
                     <div className="rightPanel1 sub">
                         <div className="rightContent portfoliotext2">
-                            <div className="title">제작물</div> <div>개인 포트폴리오</div>
-                            <div className="title">제작기간</div> <div>2021.06.28~</div>
-                            <div className="title">설명</div> <div>React를 사용하여 개발한 웹사이트입니다 react-fullpageApi를 이용해 개발하였습니다   </div>
+                            <div className="title">제작물</div> <div className="subtext">개인 포트폴리오</div>
+                            <div className="title">제작기간</div> <div className="subtext">2021.06.28~</div>
+                            <div className="title">설명</div> <div className="subtext">React를 사용하여 개발한 웹사이트입니다 react-fullpageApi를 이용해 개발하였습니다   </div>
                             <div className="title">기술스택</div>
                             <div className="skillsminiicon">
                                 <div id="mini" class="skillicon html"></div>

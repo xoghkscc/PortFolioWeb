@@ -18,8 +18,8 @@
 }
 
 .portfoliotext{
-    font-size: 40pt;
-    padding-top: 10px;
+    font-size: 4.4vw;
+    padding-top: 0.8vw;
 
 }
 
@@ -35,23 +35,21 @@
 
 .sub{
     width: 50%;
-    margin: 10px;
+    margin: 0.8vw;
 }
 
-.leftPanel1{
-    background-image: url('../media/monitor1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+img{
+    width: 100%;
+    height: 100%;
 }
-.leftPanel2{
-    background-image: url('../media/monitor2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 .rightPanel1{
     padding-left: 50px;
 }
 
+.title{
+    font-size: 1.2vw;
+}
 .rightContent{
     height: 50vh;
     display: grid;
@@ -63,7 +61,7 @@
 
 
 .subtext{
-    font-size: 0.9em;
+    font-size: 1.4vw
 }
 
 .skillsminiicon{
@@ -79,8 +77,8 @@
 }
 
 #mini{
-    width: 70px;
-    height: 70px;
+    width: 6vw;
+    height: 6vw;
     margin-right: 1rem;
     background-color: white;
     border-radius: 15px 15px;
@@ -101,8 +99,8 @@
 }
 
 .miniicon{
-    width: 60px;
-    height: 60px;
+    width: 5vw;
+    height: 5vw;
     border-radius: 5px 5px;
     background-size: cover;
     background-repeat: no-repeat;

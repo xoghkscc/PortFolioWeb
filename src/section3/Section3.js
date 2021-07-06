@@ -11,7 +11,6 @@ class Section3 extends Component {
     render() {
         return (
             <article>
-
                 <div class="skill">
                     <div class="skilltext">Skils</div>
                     <div class="text2">Front-end</div>
