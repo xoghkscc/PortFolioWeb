@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/PortFolioWeb/static/css/main.dc8143e7.chunk.css",
-    "main.js": "/PortFolioWeb/static/js/main.fc24b444.chunk.js",
-    "main.js.map": "/PortFolioWeb/static/js/main.fc24b444.chunk.js.map",
+    "main.css": "/PortFolioWeb/static/css/main.0378a3e9.chunk.css",
+    "main.js": "/PortFolioWeb/static/js/main.475421ad.chunk.js",
+    "main.js.map": "/PortFolioWeb/static/js/main.475421ad.chunk.js.map",
     "runtime-main.js": "/PortFolioWeb/static/js/runtime-main.44a027b6.js",
     "runtime-main.js.map": "/PortFolioWeb/static/js/runtime-main.44a027b6.js.map",
-    "static/js/2.1d1d7054.chunk.js": "/PortFolioWeb/static/js/2.1d1d7054.chunk.js",
-    "static/js/2.1d1d7054.chunk.js.map": "/PortFolioWeb/static/js/2.1d1d7054.chunk.js.map",
+    "static/js/2.7c3b526e.chunk.js": "/PortFolioWeb/static/js/2.7c3b526e.chunk.js",
+    "static/js/2.7c3b526e.chunk.js.map": "/PortFolioWeb/static/js/2.7c3b526e.chunk.js.map",
     "index.html": "/PortFolioWeb/index.html",
-    "static/css/main.dc8143e7.chunk.css.map": "/PortFolioWeb/static/css/main.dc8143e7.chunk.css.map",
-    "static/js/2.1d1d7054.chunk.js.LICENSE.txt": "/PortFolioWeb/static/js/2.1d1d7054.chunk.js.LICENSE.txt",
+    "static/css/main.0378a3e9.chunk.css.map": "/PortFolioWeb/static/css/main.0378a3e9.chunk.css.map",
+    "static/js/2.7c3b526e.chunk.js.LICENSE.txt": "/PortFolioWeb/static/js/2.7c3b526e.chunk.js.LICENSE.txt",
     "static/media/section3.css": "/PortFolioWeb/static/media/oracledb.e7bc0f66.png",
     "static/media/section4.css": "/PortFolioWeb/static/media/youtube.796d766b.png",
     "static/media/Section1.css": "/PortFolioWeb/static/media/hearder.a6c72a2c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.44a027b6.js",
-    "static/js/2.1d1d7054.chunk.js",
-    "static/css/main.dc8143e7.chunk.css",
-    "static/js/main.fc24b444.chunk.js"
+    "static/js/2.7c3b526e.chunk.js",
+    "static/css/main.0378a3e9.chunk.css",
+    "static/js/main.475421ad.chunk.js"
   ]
 }
