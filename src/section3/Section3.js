@@ -20,7 +20,7 @@ class Section3 extends Component {
                         <div class="skillicon css url" onClick={function () {
                             window.open("https://github.com/xoghkscc/WebFrontStudy.git")}}></div>
                         <div class="skillicon js url" onClick={function () {
-                            window.open("https://github.com/xoghkscc/BackEndStudy.git")}}></div>
+                            window.open("https://github.com/xoghkscc/JavaScriptStudy")}}></div>
                         <div id="reactid" class="skillicon react"></div>
                     </div>
                     <div class="text2">Back-end</div>

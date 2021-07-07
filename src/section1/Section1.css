@@ -1,6 +1,6 @@
 header{
     width: 100vw;
-    background-image: url('../media/hearder.jpg');
+    background-image: url('../media/header.png');
     background-size: cover;
     height: 100vh;
 }
@@ -19,9 +19,9 @@ header{
 
 h3{
     font-size: 4vw;
-    padding-top: 25vh;
-    padding-bottom: 40vh;
     color: white;
+    border-right: 2px solid white ;
+    animation: cursor 0.7s ease infinite;
 }
 .headerTextjpanel{
     display: flex;
@@ -31,6 +31,7 @@ h3{
 .headerText{
     height: 60%;
     align-items: center;
+    margin-top: 25vh;
 }
 .header-text{
     display: flex;
@@ -61,5 +62,9 @@ h3{
 
 #contact{
     margin-right: 0px;
+}
+
+@keyframes cursor{
+    50%{ border-color: transparent; }
 }
 

@@ -13,7 +13,7 @@ class Section4_2 extends Component {
             <article className="portFoliomainPanel">
                 <div className="portFolioPanel">
                     <div className="leftPanel2 sub">
-                    <img src={process.env.PUBLIC_URL + '/monitor2.png'}></img>
+                    <img src={process.env.PUBLIC_URL + '/monitor2_1.png'}></img>
                     </div>
                     <div className="rightPanel1 sub">
                         <div className="rightContent portfoliotext2">

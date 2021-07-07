@@ -44,7 +44,7 @@ export default function Section5() {
                             <label>이메일</label>
                             <input className="inputtext inputclass" type="email" name="user_email" required autoComplete='off' />
                             <label>메세지 입력</label>
-                            <textarea className="inputtext inputclass2" name="message" />
+                            <textarea className="inputtext inputclass2" name="message" required/>
                             <input className="sumitbutton" type="submit" value="보내기" required autoComplete='off' onClick="inputreset()" />
                         </form>
                     </div>
