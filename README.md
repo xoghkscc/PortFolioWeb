@@ -86,3 +86,6 @@ function sendEmail(e) {
     <input className="sumitbutton" type="submit" value="보내기" autoComplete='off'/>
 </form>
 ```
+6. 기타
+* 좌측 네비게이션을 클릭하면 클릭한 홈페이지로 이동합니다.
+* 마우스 휠을 한번 움직일 때마다 한 페이지씩 이동합니다.
