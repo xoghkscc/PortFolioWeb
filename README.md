@@ -57,6 +57,9 @@ function stop(interval) {
   * 우측에 이름, 이메일, 메세지를 입력하고 보내면 저에게 메일이 오도록 개발하였습니다.
   * EmailJS을 활용하여 구현하였습니다. 코드는 아래와 같습니다.
 ```C
+import { Component } from 'react';
+import emailjs from 'emailjs-com';
+
 function sendEmail(e) {
     e.preventDefault();//버튼을 클릭하였을 때 새로고침이 되지 않도록 하는 코드
     const resetvalue = document.getElementsByClassName("inputtext");
