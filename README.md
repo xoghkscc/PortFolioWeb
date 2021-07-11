@@ -4,7 +4,7 @@
   * 개발언어 : Html, CSS, JavaScript
   * 프레임워크 : React
   * Tool : vs code
-  * 외부 라이브러리 : FullScreen API, EmailJS
+  * 외부 라이브러리 : FullPageJS, EmailJS
 ## 2_화면구성
 1. Home
   * 홈 네비게이션을 클릭하면 그에 맞는 화면으로 이동하도록 구현하였습니다.
