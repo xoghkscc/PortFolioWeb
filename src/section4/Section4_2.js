@@ -19,7 +19,7 @@ class Section4_2 extends Component {
                         <div className="rightContent portfoliotext2">
                             <div className="title">제작물</div> <div className="subtext">개인 포트폴리오</div>
                             <div className="title">제작기간</div> <div className="subtext">2021.06.28~</div>
-                            <div className="title">설명</div> <div className="subtext">React를 사용하여 개발한 웹사이트입니다 react-fullpageApi를 이용해 개발하였습니다   </div>
+                            <div className="title">설명</div> <div className="subtext">React를 사용하여 개발한 웹사이트입니다 FullPageJS를 이용해 개발하였습니다   </div>
                             <div className="title">기술스택</div>
                             <div className="skillsminiicon">
                                 <div id="mini" class="skillicon html"></div>

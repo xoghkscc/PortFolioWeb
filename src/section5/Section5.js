@@ -18,7 +18,7 @@ export default function Section5() {
         
         Array.from(resetvalue).forEach((value)=>{
             value.value = '';
-        })
+        })//보내기 버튼을 클릭할 경우 내용에 보내진 후에 입력한 내용이 사라지게 하는 코드
 
     }
 
@@ -45,7 +45,7 @@ export default function Section5() {
                             <input className="inputtext inputclass" type="email" name="user_email" required autoComplete='off' />
                             <label>메세지 입력</label>
                             <textarea className="inputtext inputclass2" name="message" required/>
-                            <input className="sumitbutton" type="submit" value="보내기" required autoComplete='off' onClick="inputreset()" />
+                            <input className="sumitbutton" type="submit" value="보내기" autoComplete='off' />
                         </form>
                     </div>
                 </div>
