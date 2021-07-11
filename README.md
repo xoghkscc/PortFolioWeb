@@ -38,7 +38,7 @@ var interval = setInterval(() => {
 function stop(interval) {
     clearInterval(interval);
 }
-}
+
 ```
 2. About
   * 저에 대한 소개를 하는 페이지입니다.
