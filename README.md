@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Portfolio Web
+## 1_개발환경
+  * OS : window 10
+  * 개발언어 : Html, CSS, JavaScript
+  * 프레임워크 : React
+  * Tool : vs code
+  * 외부 라이브러리 : FullScreen API, EmailJS
+## 2_화면구성
+1. Home
+  * 홈 네비게이션을 클릭하면 그에 맞는 화면으로 이동하도록 구현하였습니다.
+  * 메인 화면에 타이핑 효과에 대한 코드는 다음과 같습니다.
+```C
+let index = 0;
+let start = 0;
+const content = `roqkfdml  개발의 진심인 김태환의 포트폴리오입니다. `;
+var tf = true;
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+var interval = setInterval(() => {
+    const text = document.querySelector("h3");
+    if (tf) {
+        text.innerHTML = content.substring(start, index++);
+        if (index === 8) {
+            tf = false;
+        }
+    } else {
+        text.innerHTML = content.substring(start, index--);
+        if (index === 0) {
+            tf = true;
+            start = 8;
+            index = 9;
+        }
+    }
+    if (index === content.length) {
+        stop(interval);
+    }
+}, 200);
 
-## Available Scripts
+function stop(interval) {
+    clearInterval(interval);
+}
+}
+```
+2. About
+  * 저에 대한 소개를 하는 페이지입니다.
+3. Skils
+  * 제가 활용할 수 있는 기술들을 정리한 페이지입니다.
+  * 클릭할 수 있는 아이콘은 hover효과를 주었습니다.
+  * 아이콘을 클릭하면 각 기술에 맞는 GitHub홈페이지로 이동합니다.
+4. Project
+  * 제가 참여한 프로젝트들의 결과물들을 정리한 페이지입니다.
+  * slide효과는 fullpageApi를 활용하였습니다.
+  * 우측 버튼을 눌러 화면을 이동할 수 있게 하였습니다.
+  * 하단에 네비게이션 효과를 주어 현재 페이지 위치를 알 수 있도록 하였습니다.
+  * GiuHub 아이콘을 클릭하면 프로젝트에 관한 GiutHub 홈페이지로 이동합니다.
+  * YouTub 아이콘을 클릭하면 프로젝트을 시연한 동영상을 볼 수 있습니다.
+5. Contact 
+  * 우측에 이름, 이메일, 메세지를 입력하고 보내면 저에게 메일이 오도록 개발하였습니다.
+  * EmailJS을 활용하여 구현하였습니다. 코드는 아래와 같습니다.
+```C
+function sendEmail(e) {
+    e.preventDefault();//버튼을 클릭하였을 때 새로고침이 되지 않도록 하는 코드
+    const resetvalue = document.getElementsByClassName("inputtext");
+    
+    emailjs.sendForm(service_id, template_id, e.target, user_id)
+    .then((result) => {
+        console.log(result.text);
+        alert(`메일을 성공적으로 보냈습니다`);
+    }, (error) => {
+        console.log(error.text);
+        alert(`메일보내기 실패하였습니다`);
+    });
+    
+    Array.from(resetvalue).forEach((value)=>{
+        value.value = '';
+    })//보내기 버튼을 클릭할 경우 내용에 보내진 후에 입력한 내용이 사라지게 하는 코드
+}
+//아래는 form태그에 email보내기 기능을 적용한 코드
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<form className="contactform " onSubmit={sendEmail}>
+    <label>이름</label>
+    <input className="inputtext inputclass" type="text" name="user_name" required autoComplete='off' />
+    <label>이메일</label>
+    <input className="inputtext inputclass" type="email" name="user_email" required autoComplete='off' />
+    <label>메세지 입력</label>
+    <textarea className="inputtext inputclass2" name="message" required/>
+    <input className="sumitbutton" type="submit" value="보내기" required autoComplete='off' onClick="inputreset()" />
+</form>
+```
