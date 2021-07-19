@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
 .sectionpart{
         background-color: white;
     }
@@ -16,8 +16,7 @@
 .icon{
     width: 80px;
     height: 80px;
-    margin-top: 30px;
-    margin-bottom: 1vh;
+    margin-top: 20px;
     text-align: justify;
 }
 
@@ -34,13 +33,59 @@
 }
 
 .info{
-    margin-top: 10vh;
+    margin-top: 4vh;
     font-size: 20pt;
     height: auto;
+    display: grid;
+    grid-template-columns: 30% auto;
+
 }
 
 #contact_support{
-    
     font-size: 80px;
 }
+
+.info>*{
+    height: 55vh;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.profileImg{
+    border-radius: 100vw;
+    max-width: 20vw;
+    max-height: 20vw;
+}
+
+.info2{
+    display: grid;
+    grid-template-rows: 30% auto;
+    row-gap: 1vh;
+}
+
+.info2>*{
+    text-align: left;
+    padding-left: 2vw;
+}
+
+.block{
+    display: flex;
+    align-items: flex-end;
+    background-color: #393f47;
+    width: 6px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.miniblock{
+    margin-left: 1vw;
+}
+dd{
+    font-size: 15pt;
+}
+
+
+
+
+
+
 
