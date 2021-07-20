@@ -20,6 +20,13 @@
     text-align: justify;
 }
 
+.info1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 
 .text{
     width: 80%;
@@ -33,7 +40,7 @@
 }
 
 .info{
-    margin-top: 4vh;
+    margin-top: 1vh;
     font-size: 20pt;
     height: auto;
     display: grid;
@@ -72,15 +79,26 @@
     align-items: flex-end;
     background-color: #393f47;
     width: 6px;
-    height: 40px;
+    height: 2.7vw;
     margin-bottom: 10px;
 }
 
 .miniblock{
     margin-left: 1vw;
+    font-size: 2.2vw;
 }
 dd{
-    font-size: 15pt;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+p{
+    font-size: 1.1vw;
+    line-height: 5.5vh;
+
+}
+
+dl{
+    margin-top: 3vh;
 }
 
 

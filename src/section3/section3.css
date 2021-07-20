@@ -36,6 +36,7 @@
 .skillicon{
     width:  7vw;
     height: 7vw;
+    background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
     margin-right: 4vw;
