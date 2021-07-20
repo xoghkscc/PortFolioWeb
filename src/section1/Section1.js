@@ -6,22 +6,22 @@ class Section1 extends Component {
         super(props);
         let index = 0;
         let start = 0;
-        const content = `roqkfdml  개발의 진심인 김태환의 포트폴리오입니다. `;
+        const content = `roqkfdp  개발에 진심인 김태환의 포트폴리오입니다. `;
         var tf = true;
         
         var interval = setInterval(() => {
             const text = document.querySelector("h3");
             if (tf) {
                 text.innerHTML = content.substring(start, index++);
-                if (index === 8) {
+                if (index === 7) {
                     tf = false;
                 }
             }else{
                 text.innerHTML = content.substring(start, index--);
                 if (index === 0) {
                     tf = true;
-                    start = 8;
-                    index = 9;
+                    start = 7;
+                    index = 8;
                 }
             }
             if (index === content.length) {
