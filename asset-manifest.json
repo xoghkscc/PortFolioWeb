@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/PortFolioWeb/static/css/main.a18e5bac.chunk.css",
-    "main.js": "/PortFolioWeb/static/js/main.c639f35e.chunk.js",
-    "main.js.map": "/PortFolioWeb/static/js/main.c639f35e.chunk.js.map",
+    "main.css": "/PortFolioWeb/static/css/main.0675c660.chunk.css",
+    "main.js": "/PortFolioWeb/static/js/main.6187f9ea.chunk.js",
+    "main.js.map": "/PortFolioWeb/static/js/main.6187f9ea.chunk.js.map",
     "runtime-main.js": "/PortFolioWeb/static/js/runtime-main.44a027b6.js",
     "runtime-main.js.map": "/PortFolioWeb/static/js/runtime-main.44a027b6.js.map",
     "static/js/2.7c3b526e.chunk.js": "/PortFolioWeb/static/js/2.7c3b526e.chunk.js",
     "static/js/2.7c3b526e.chunk.js.map": "/PortFolioWeb/static/js/2.7c3b526e.chunk.js.map",
     "index.html": "/PortFolioWeb/index.html",
-    "static/css/main.a18e5bac.chunk.css.map": "/PortFolioWeb/static/css/main.a18e5bac.chunk.css.map",
+    "static/css/main.0675c660.chunk.css.map": "/PortFolioWeb/static/css/main.0675c660.chunk.css.map",
     "static/js/2.7c3b526e.chunk.js.LICENSE.txt": "/PortFolioWeb/static/js/2.7c3b526e.chunk.js.LICENSE.txt",
     "static/media/section3.css": "/PortFolioWeb/static/media/oracledb.e7bc0f66.png",
     "static/media/section4.css": "/PortFolioWeb/static/media/youtube.796d766b.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.44a027b6.js",
     "static/js/2.7c3b526e.chunk.js",
-    "static/css/main.a18e5bac.chunk.css",
-    "static/js/main.c639f35e.chunk.js"
+    "static/css/main.0675c660.chunk.css",
+    "static/js/main.6187f9ea.chunk.js"
   ]
 }
