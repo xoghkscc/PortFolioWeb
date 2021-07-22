@@ -33,8 +33,7 @@ class Section4_2 extends Component {
                                         window.open("https://github.com/xoghkscc/PortFolioWeb")}}></div>
                                     <div className="miniicon posyoutube url" 
                                     onClick={function () {
-                                        window.open("https://www.youtube.com/premium")}}></div>
-                                        {/* 이거 추후에 촬영해야함 */}
+                                        window.open("https://www.youtube.com/watch?v=5fumY0_LQ6A")}}></div>
                                 </div>
                         </div>
                     </div>

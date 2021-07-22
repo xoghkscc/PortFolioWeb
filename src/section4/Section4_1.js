@@ -34,7 +34,6 @@ class Section4_1 extends Component {
                                     <div className="miniicon posyoutube url" 
                                     onClick={function () {
                                         window.open("https://www.youtube.com/watch?v=7yKVaHDGHzg")}}></div>
-                                        {/* 이거 추후에 촬영해야함 */}
                                 </div>
                         </div>
                     </div>

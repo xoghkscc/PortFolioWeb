@@ -41,7 +41,7 @@ const Fullpage = () => (
               </div>
             </div>
             <div className="section">
-                    <Section5></Section5>
+              <Section5></Section5>
             </div>
           </ReactFullpage.Wrapper>
         </BrowserRouter>
