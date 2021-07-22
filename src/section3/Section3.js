@@ -25,8 +25,12 @@ class Section3 extends Component {
                     </div>
                     <div class="text2">Back-end</div>
                     <div class="Content">
-                        <div id="javaid" class="skillicon java url" onClick={function () {
+                        <div class="skillicon java url" onClick={function () {
                             window.open("https://github.com/xoghkscc/JavaStudy.git")}}></div>
+                        <div class="skillicon jsp url" onClick={function () {
+                            window.open("https://github.com/xoghkscc/JspStudy")}}></div>
+                            <div id="springid" class="skillicon spring url" onClick={function () {
+                                window.open("https://github.com/xoghkscc/SpringStudy")}}></div>
                     </div>
                     <div class="text2">Etc</div>
                     <div class="Content">

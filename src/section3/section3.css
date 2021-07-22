@@ -61,8 +61,14 @@
 .react{
     background-image: url('../media/logo512.png');
 }
+.spring{
+    background-image: url('../media/spring.png');
+}
 .java{
     background-image: url('../media/java.png');
+}
+.jsp{
+    background-image: url('../media/jsp.png');
 }
 .git{
     background-image: url('../media/git.png');
@@ -77,7 +83,7 @@
 #reactid{
     margin-right: 0px;
 }
-#javaid{
+#springid{
     margin-right: 0px;
 }
 #awsid{
