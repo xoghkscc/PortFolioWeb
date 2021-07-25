@@ -1,4 +1,4 @@
-# 포스기 프로젝트
+# 웹 
 ## 1_개발환경
   * OS : window 10
   * 개발언어 : Html, CSS, JavaScript
