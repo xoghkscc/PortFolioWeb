@@ -12,7 +12,7 @@ class Section3 extends Component {
         return (
             <article>
                 <div class="skill">
-                    <div class="skilltext">Skils</div>
+                    <div class="skilltext">Skills</div>
                     <div class="text2">Front-end</div>
                     <div class="Content">
                         <div class="skillicon html url" onClick={function () {
